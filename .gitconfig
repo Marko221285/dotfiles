@@ -1,0 +1,35 @@
+[core]
+  excludesfile = "~/.gitexcludes"
+  pager = delta
+
+[interactive]
+  singleKey = true
+  diffFilter = delta --color-only
+
+[user]
+  name = Marko Horvat
+  email = horvat.marko2212@gmail.com
+
+[init]
+  defaultBranch = main
+[pull]
+  rebase = true
+[push]
+  default = matching
+  followTags = true
+[rerere]
+  enabled = true
+
+[merge]
+  tool = vimdiff
+  conflictstyle = diff3
+
+[diff]
+  guitool = vimdiff
+  colorMoved = default
+
+[color]
+  ui = auto
+
+[delta]
+  navigate = true

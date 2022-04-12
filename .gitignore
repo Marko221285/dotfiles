@@ -1,0 +1,66 @@
+# formatting
+# list the included matches first and then exclude from that
+# if something needs to be added add a section like the one below
+
+
+# ignore everything by default and keep the gitignore file
+
+*
+!.gitignore
+
+
+# git
+
+!.gitexcludes
+!.gitconfig
+
+
+# scripts
+
+!scripts/
+!scripts/*
+!scripts/*/*
+!scripts/*/*/*
+!scripts/*/*/*/*
+!scripts/*/*/*/*/*
+!scripts/*/*/*/*/*/*
+!scripts/*/*/*/*/*/*/*
+!scripts/*/*/*/*/*/*/*/*
+
+
+# shell
+
+!.config/
+!.config/shell/
+!.config/shell/env.sh
+!.config/shell/alias.sh
+!.config/shell/wsl.sh
+
+
+# bash
+
+!.bashrc
+
+
+# fish
+
+!.config/
+!.config/fish/
+!.config/fish/config.fish
+!.config/fish/user/
+!.config/fish/user/*
+
+
+# starship
+
+!.config/
+!.config/starship/
+!.config/starship/starship.toml
+
+
+# vim
+
+!.vimrc
+
+
+# TODO: example
