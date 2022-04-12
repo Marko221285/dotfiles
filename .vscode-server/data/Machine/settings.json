@@ -1,0 +1,13 @@
+{
+  "terminal.integrated.fontFamily": "JetBrainsMonoNerdFontCompl NF",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "fish": {
+      "path": "fish"
+    },
+  },
+  "terminal.integrated.defaultProfile.linux": "fish"
+}

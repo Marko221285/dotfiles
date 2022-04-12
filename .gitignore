@@ -63,4 +63,12 @@
 !.vimrc
 
 
+# vscode
+
+!.vscode-server/
+!.vscode-server/data/
+!.vscode-server/data/Machine/
+!.vscode-server/data/Machine/settings.json
+
+
 # TODO: example
