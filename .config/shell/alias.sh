@@ -7,3 +7,5 @@ alias sed="sed -E"
 alias tree="tree -CSAFah"
 alias mv="mv -i"
 alias rm="rm -i"
+
+alias up="paru -Syu"
